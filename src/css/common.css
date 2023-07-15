@@ -16,40 +16,25 @@ img {
   display: block;
   max-width: 100%;
 }
-
-button {
-  display: inline-block;
-  border: none;
-  border-radius: 50%;
-  background-color: rgb(5, 120, 21);
-  font-size: 18px;
-  color:#fafafa;
-  padding: 10px 10px;
-  cursor: pointer;
-  width: 100px;
-  height: 100px;
-  text-align: center;
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 10px;
 }
 
-button:disabled {
-  background-color: rgb(5, 95, 164);
-}
-
-input {
-  padding: 15px 8px;
-  font-size: 18px;
-  border-radius: 10px;
-}
-
-span {
-  font-size: 20px;
+label {
+  display: flex;
+  flex-direction: column;
 }
 
 .timer {
+  margin-top: 20px;
   display: flex;
-  padding: 10px;
+  gap: 10px;
 }
 
 .field {
-  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
 }
